@@ -1,0 +1,13 @@
+user:
+  description: User
+  child:
+    index: List User
+    upsert: Create/Update User
+    delete: Delete User
+role:
+  description: Role
+  child:
+    index: List Role
+    upsert: Create/Update Role
+    delete: Delete Role
+    permission: Access Permission
